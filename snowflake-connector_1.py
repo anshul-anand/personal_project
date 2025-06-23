@@ -2,8 +2,8 @@ import snowflake.connector
 
 
 conn = snowflake.connector.connect(
-    user = 'aanand',
-    account='snowhouse',
+    user = 'username',
+    account='account',
     authenticator='externalbrowser'
 
 )
