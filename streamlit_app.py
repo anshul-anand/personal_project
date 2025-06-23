@@ -27,8 +27,8 @@ if uploaded_file:
             if st.button(f"Run Query for Issue {i}"):
                 # Dummy Snowflake config
                 snowflake_config = {
-                    "user": "AANAND",
-                    "account": "snowhouse",
+                    "user": "user",
+                    "account": "account",
                     "authenticator":"externalbrowser"
                 }
                 results = run_query(query, snowflake_config)
