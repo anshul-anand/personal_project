@@ -1,0 +1,34 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+
+# HAR files
+*.har
+
+# Snowflake credentials
+*.p8
+*.pem
+.env
+secrets.json
+
+# IDE/editor config
+.vscode/
+.idea/
+
+# Output files
+*.log
+*.csv
+*.xlsx
+
+# Jupyter/IPython stuff
+.ipynb_checkpoints/
+
+# macOS/Linux
+.DS_Store
+Thumbs.db
+
+# Virtualenv
+.venv/
+env/
+venv/
